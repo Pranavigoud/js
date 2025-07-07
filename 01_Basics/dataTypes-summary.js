@@ -21,10 +21,29 @@ let myObj = {
     age: 22
 }
 
-const myFunction =function(){
+const myFunction = function () {
     console.log("Hello World");
 }
 console.log(typeof bigNumber);
 console.log(typeof Scoreval);
 console.log(typeof myFunction);
 console.log(typeof anotherId);
+//https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// memory
+// stack (primitve), heap (non primitive) 
+let myYoutubename = "dev"
+let anotherName = myYoutubename
+anotherName = "chai"
+console.log([myYoutubename, anotherName]);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+let userTwo = userOne
+userTwo.email = " hi@google.com"
+console.log(userOne);
+console.log(userTwo);
