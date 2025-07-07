@@ -36,6 +36,5 @@ console.log(undefined== null);
 console.log(null > undefined);
 console.log(null >= undefined);
 console.log(null == undefined);
-// === strict comparision . checks values and types. in typescript we have strict rules. comparisions also check the type of the data
+// === strict comparision . checks values and types. in typescript we have strict rules. comparisions also check the type of the type of the data
 // mostly try to avoid comparing different types of data
- 
