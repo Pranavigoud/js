@@ -24,10 +24,10 @@ JsUser.email = "asdfghhj@gmail.com"
 // console.log(JsUser);
 
 JsUser.greeting = function () {
-    console.log("Hello JS user");  
+    console.log("Hello JS user");
 }
 JsUser.greetingtwo = function () {
-    console.log(`Hello JS user ${this.name}`);  
+    console.log(`Hello JS user ${this.name}`);
 }
 // console.log(JsUser.greeting()); //trying to print return type where function doesnt have any return type
 JsUser.greeting()
